@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+}
+header{
+    margin-left: 12%;
+    margin-right: 10%;
+    /* margin-bottom: 20px; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    height: 55px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+header h3{
+    margin-top: 8px;
+    margin-left: 40px;
+    margin-bottom: 25PX;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10PX;
+    font-weight: 600;
+    font-size: 16px;
+}
+header h3:hover{
+    background-color: rgb(237, 236, 236);
+    border-radius: 6PX;
+}
+header button{
+    background-color: rgb(65, 182, 255);
+    color: white;
+    width: 110px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 90px;
+    border-color: rgb(65, 182, 255);
+    border-radius: 30px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: row;
+}
+header button:hover{
+    background-color: navy;
+    border-color: navy;
+}
+header button p{
+    margin-top: 8px;
+    margin-right: 10px;
+    margin-left: 15px;
+}
+header button img{
+    height: 30px;
+    margin-top: 3px;
+}
+.kyc{
+    text-align: center;
+    height: 40px;
+    font-weight: 500;
+    background-color:  rgba(0,0,0,0.05);
+}
+.kyc p{
+    padding-top: 8px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+.first{
+    margin-left: 150px;
+}
+.first img{
+    height: 90px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.first h1{
+    font-weight: 600;
+    font-size: 60px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+.first p{
+    font-size: 20px;
+    width: 55%;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+.first button{
+    height: 50px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 17px;
+}
+.first button:hover{
+    background-color: white;
+    color: black;
+}
+.second{
+    margin-top: 90px;
+}
+.second:hover{
+    transform: scale(1.2); 
+    transition-duration: 2s;
+}
+.second img{
+    flex-direction: row-reverse;
+    height: 550px;
+}
+.bill{
+    background-color: rgb(65, 182, 255);
+    color: white;
+    padding-bottom: 40px;
+}
+.bill h2{
+    margin-left: 150px;
+    font-size: 36px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+.allbills{
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+}
+.allbills a{
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.allbills p{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.allbills h4{
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.allbills a:hover{
+    background-color: rgba(168, 168, 168, 0.349);
+    border-radius: 10px;
+}
+.allbills img{
+    height: 65px;
+    padding-left: 20px;
+}
+/* footer */
+footer{
+    height: 100px;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+}
+footer h4{
+    font-size: 25px;
+    padding-top: 35px;
+}
